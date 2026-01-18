@@ -1,0 +1,40 @@
+# Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Database
+supabase==2.3.4
+postgrest==0.14.0
+
+# Messaging Platforms
+# Facebook Messenger (via requests, no official Python SDK)
+requests==2.31.0
+
+# LLM APIs
+anthropic==0.18.1
+openai==1.12.0
+
+# PDF Processing
+pdfplumber==0.10.4
+Pillow==10.2.0
+
+# Payments
+stripe==8.1.0
+
+# Utilities
+python-dotenv==1.0.1
+python-multipart==0.0.6
+httpx==0.26.0
+
+# Testing
+pytest==8.0.0
+pytest-asyncio==0.23.4
+pytest-cov==4.1.0
+httpx==0.26.0  # For async client testing
+
+# Development
+black==24.1.1
+flake8==7.0.0
+mypy==1.8.0
